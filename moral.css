@@ -1,0 +1,56 @@
+.moral-stories {
+    background-color: #1a1a1a; /* Dark background color for the moral stories section */
+    color: #fff; /* Text color on the moral stories section */
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+.fantasy {
+    background-color: #1a1a1a; /* Dark background color for the moral stories section */
+    color: #fff; /* Text color on the moral stories section */
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.story-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.story-card {
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: #333; /* Dark background color for each story card */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Style each story card on hover */
+.story-card:hover {
+    transform: scale(1.05);
+}
+
+.story-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+.story-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.story-card p {
+    font-size: 1.1em;
+}
+
+.back img {
+    width: 3%;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    padding-right: 0%;
+}

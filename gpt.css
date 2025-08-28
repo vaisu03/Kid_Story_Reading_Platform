@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.dark-header {
+    background-color: #000000; /* Dark header background color */
+    padding: 10px 0;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Navigation text color */
+    font-weight: bold;
+}
+
+/* Style the navigation links on hover */
+nav ul li a:hover {
+    color: #ffd700; /* Hover color */
+}
+
+/* Your existing CSS styles */
+
+.hero-section {
+    background-image: url('adventure/magical\ forest.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Text color on hero section */
+    padding: 200px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff; 
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+ 
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700; /* CTA button color */
+    color: #1a1a1a; /* Text color on CTA button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style the CTA button on hover */
+.cta-button:hover {
+    background-color: #ffcc00; /* Hover color */
+}
+
+
+
+
+
+/* Your existing CSS styles */
+
+
+.about-us {
+    background-image: url('fantasy/willow.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1a1a; /* Dark background color for the about us section */
+    color: #fff; /* Text color on the about us section */
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.about-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    margin-bottom: 110px;
+}
+
+/* Your existing CSS styles */
+
+.age-categories {
+    background-image: url('fantasy/lullaby.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1a1a; /* Dark background color for the age-appropriate categories section */
+    color: #fff; /* Text color on the age-appropriate categories section */
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.category-card {
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: #333; /* Dark background color for each category card */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Style each category card on hover */
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.category-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    font-size: 1.1em;
+}
+
+/* Your existing CSS styles */
+
+.parental-controls {
+    background-image: url('fantasy/starlight.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center; 
+    background-color: #1a1a1a; /* Dark background color for the parental controls section */
+    color: #fff; /* Text color on the parental controls section */
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.controls-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.controls-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.controls-content ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.controls-content p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Your existing CSS styles */
+
+.testimonials {
+    background-image: url('fantasy/winds.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1a1a; /* Dark background color for the testimonials section */
+    color: #fff; /* Text color on the testimonials section */
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.testimonial-card {
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: #333; /* Dark background color for each testimonial card */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Style each testimonial card on hover */
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-card p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.testimonial-card .author {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+/* Your existing CSS styles */
+
+/* Your existing CSS styles */
+
+.dark-footer {
+    background-color: #1a1a1a; /* Dark background color for the footer */
+    color: #fff; /* Text color on the footer */
+    padding: 40px 0; /* Adjust padding as needed */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff; /* Footer links text color */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Style footer links on hover */
+.footer-links a:hover {
+    color: #ffd700; /* Hover color */
+}
+
+.social-media a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+/* Style social media icons */
+.social-media img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+  
+
+
+.index-section {
+    background-image: url('fantasy/wonders.jpeg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Text color on hero section */
+    padding: 270px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.index-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.index-content h1 {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.index-content a {
+    font-size: 1em;
+    margin-top: 50px;
+    text-decoration: wavy;
+}
+.index-section button{
+        font-family: arial;
+        color: #000000 !important;
+        font-size: 14px;
+        text-shadow: 1px 1px 0px #debc7c;
+        box-shadow: 1px 1px 1px #ED81F9;
+        padding: 10px 25px;
+        border-radius: 10px;
+        border: 2px solid #a33861;
+        background: #EE37A5;
+        background: linear-gradient(to top, #EE37A5, #46c6cf);
+      }
+      .index-section button:hover {
+        color: #000000 !important;
+        background: #CFBAC2;
+        background: linear-gradient(to top, #CFBAC2, #7c63ee);
+      }
+      
+
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px; 
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px; 
+}
+.reg p{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 40px; 
+}
+.reg a{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px; 
+}
+

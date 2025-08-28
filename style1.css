@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #140e0e; /* Dark background color */
+    color: #ffffff; /* Text color */
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #000000; /* Dark border color for the input */
+    border-radius: 5px;
+    background-color:transparent; /* Dark background color for the input */
+    color: #ffffff; /* Text color on the input */
+}
+
+.register-section {
+    background-image: url('fantasy/lullaby.jpeg');
+    /* Replace with your actual image */
+   background-size: cover;
+   background-position: center;
+   color: #ffffff; /* Text color on hero section */
+   padding: 215px 0; /* Adjust padding as needed */
+   text-align: center;
+}
+.login-section {
+    background-image: url('wp2857288.webp');
+    /* Replace with your actual image */
+   background-size: cover;
+   background-position: center;
+   color: #f1e7e7; /* Text color on hero section */
+   padding: 215px 0; /* Adjust padding as needed */
+   text-align: center;
+}
